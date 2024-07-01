@@ -93,18 +93,27 @@ section h2 {
 
 .mid-container {
     padding: 10px 150px 10px;
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    /* added for context  */
-    background-color: rgba(255, 0, 255, 0.321);
+    justify-content: center;
+    /* color for arrangement context */
+    /* background-color: rgba(255, 0, 255, 0.321); */
 }
 
-.img .mid-image {
-    display: inline-flex;
-    height: 9em;
-    width: 9em;
+.img-container {
+    /* display:flex; */
+    /* flex-direction: column; */
+    width: 100px;
+    margin-right: 40px;
+    text-align: center;
+    /* color and border for context/arrangement guides */
+    /* background-color: purple; */
+    /* border: 2px solid white; */
+}
+
+.mid-image {
+    height: 100px;
+    /* width: 100px; */
     border: 3px solid #3882f6;
     border-radius: 10%;
-    margin-right: 20px;
+    /* margin: 0 auto; */
 }
