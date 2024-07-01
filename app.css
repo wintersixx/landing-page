@@ -29,10 +29,14 @@ body {
 
 .nav-links {
     display: flex;
+    /* padding-right: 50%; */
     align-items: center;
+    justify-content: flex-end;
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #494949;
+    margin: 0 48px;
+    margin-left: auto;
+    background-color: #ac00d3;
 }
 
 .nav-links a {
