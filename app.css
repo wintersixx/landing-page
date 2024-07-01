@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    /* background-color: #1f2937; */
+}
+
+
+.nav-bar {
+    background-color: #1f2937;
+    display: flex;
+    padding: 10px 0px;
+
+}
+
+.nav-bar a {
+    color: #f9faf8;
+    text-decoration: none;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    margin: 0 48px;
+}
+
+.nav-links {
+    /* display: flex; */
+    margin: 0 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-container {
+    padding: 1px 48px;
+    background-color: #1f2937;
+}
+
+.top-container h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #f9faf8;
+}
+
+.top-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
