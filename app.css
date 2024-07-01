@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: Roboto;
     /* background-color: #1f2937; */
 }
@@ -24,18 +24,23 @@ body {
 }
 
 .nav-links {
-    /* display: flex; */
+    display: flex;
+    list-style-type: none;
     margin: 0 auto;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .top-container {
+    height: 300px;
+    margin: 0 auto;
     padding: 1px 48px;
     background-color: #1f2937;
+    display: flex;
 }
 
 .top-container h1 {
+    margin: 0;
     font-size: 48px;
     font-weight: 500;
     color: #f9faf8;
@@ -44,4 +49,23 @@ body {
 .top-container p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.main-title {
+    width: 50%;
+    /* box-sizing: content-box; */
+    /* display: inline-block; */
+    /* flex-wrap: wrap; */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-image {
+    /* padding: 10px; */
+    /* display: flex; */
+    width: 50%;
+    /* display: inline-block; */
 }
