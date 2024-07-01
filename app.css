@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     display: flex;
     /* padding: 10px 0px; */
-    padding: 10px 50px 20px;
+    padding: 10px 150px 20px;
 
 }
 
@@ -43,7 +43,7 @@ body {
 .top-container {
     height: 300px;
     width: auto;
-    padding: 10px 50px 20px;
+    padding: 10px 150px 20px;
     background-color: #1f2937;
     display: flex;
 }
@@ -81,4 +81,8 @@ body {
 .cta-button-1 {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.mid-container {
+    padding: 10px 150px 20px;
 }
