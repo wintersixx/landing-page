@@ -5,9 +5,11 @@ body {
 
 
 .nav-bar {
+
     background-color: #1f2937;
     display: flex;
-    padding: 10px 0px;
+    /* padding: 10px 0px; */
+    padding: 10px 50px 20px;
 
 }
 
@@ -23,34 +25,27 @@ body {
     text-transform: capitalize;
     font-weight: 800;
     font-size: 24px;
-    margin: 0 48px;
-    margin-right: 50%;
 }
 
 .nav-links {
     display: flex;
-    /* padding-right: 50%; */
     align-items: center;
-    justify-content: flex-end;
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0 48px;
     margin-left: auto;
-    background-color: #ac00d3;
 }
 
 .nav-links a {
     display: inline;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .top-container {
     height: 300px;
     width: auto;
-    padding: 48px;
+    padding: 10px 50px 20px;
     background-color: #1f2937;
     display: flex;
-    /* flex-wrap: nowrap; */
 }
 
 .top-container h1 {
