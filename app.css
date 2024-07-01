@@ -37,6 +37,7 @@ body {
     padding: 0px 48px;
     background-color: #1f2937;
     display: flex;
+    /* flex-wrap: nowrap; */
 }
 
 .top-container h1 {
@@ -53,10 +54,12 @@ body {
 
 .main-title {
     width: 50%;
+    margin: 0 auto;
 }
 
 .image-container {
     width: 50%;
+    margin: 0px 0px 50px 50px;
     /* overflow: hidden; */
 }
 
@@ -65,4 +68,9 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: 50% 70%;
+}
+
+.cta-button-1 {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
