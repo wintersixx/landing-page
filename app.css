@@ -40,45 +40,69 @@ body {
     margin-left: 10px;
 }
 
-.top-container {
-    height: 300px;
-    width: auto;
-    padding: 10px 20% 20px;
-    background-color: #1f2937;
-    display: flex;
-}
+
 
 .top-container h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    text-wrap: wrap;
+    /* overflow: clip; */
+    /* min-height: 0; */
 }
 
 .top-container p {
     font-size: 18px;
     color: #e5e7eb;
+    /* min-width: 0; */
+    /* color for arrangement context */
+    /* background-color: #df63c6; */
 }
 
 .main-title {
+    /* box-sizing: border-box; */
     width: 50%;
-    margin: 0 auto;
+    height: 240px;
+    padding-right: 5%;
+    /* color for arrangement context */
+    /* background-color: purple; */
 }
 
 .main-image-container {
+    /* height: 100%; */
+    /* box-sizing: border-box; */
     width: 50%;
-    margin: 0px 0px 50px 50px;
+    padding-left: 5%;
+    /* color for arrangement context */
+    /* background-color: #3882f6; */
     /* overflow: hidden; */
 }
 
 .main-image {
+
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 70%;
 }
 
+.top-container {
+    /* box-sizing: border-box; */
+    max-height: 240px;
+    padding: 50px 20% 50px;
+    background-color: #1f2937;
+    display: flex;
+    /* flex-direction: row; */
+    /* color for arrangement context */
+    /* background-color: rgba(128, 0, 128, 0.402); */
+}
+
 .cta-button-1 {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 90px;
     background-color: #3882f6;
     color: #f9faf8;
 }
@@ -92,7 +116,7 @@ section h2 {
 }
 
 .mid-container {
-    padding: 10px 20% 10px;
+    /* padding: 10px 20% 10px; */
     display: flex;
     justify-content: center;
     /* color for arrangement context */
@@ -102,16 +126,16 @@ section h2 {
 .img-container {
     /* display:flex; */
     /* flex-direction: column; */
-    width: 100px;
+    width: 150px;
     margin-right: 40px;
     text-align: center;
     /* color and border for context/arrangement guides */
     /* background-color: purple; */
-    /* border: 2px solid white; */
+    /* border: 5px solid hidden; */
 }
 
 .mid-image {
-    height: 100px;
+    height: 140px;
     /* width: 100px; */
     border: 3px solid #3882f6;
     border-radius: 10%;
