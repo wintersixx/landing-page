@@ -69,6 +69,7 @@ body {
 }
 
 .main-title {
+    box-sizing: border-box;
     width: 50%;
     /* background-color: purple; */
 }
@@ -175,22 +176,32 @@ section h2 {
 
 /* CALL TO ACTION SECTION  */
 
+.offer {
+    box-sizing: border-box;
+    padding: 2% 10% 2% 2%;
+    /* margin: 0 200px 0 0; */
+}
+
 .offer p {
-    margin: 0;
+    margin: 5px 0 5px 0;
     padding: 0;
     color: #E5E7EB;
 }
 
 .offer h3 {
-    margin: 0;
+    margin: 5px 0 0 0;
     color: #f9faf8;
+}
+
+.button-container {
+    padding: 0 5% 0 0;
 }
 
 .button-container button {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
-    width: 100px;
+    width: 90px;
     background-color: #3882f6;
     color: #f9faf8;
 }
@@ -198,8 +209,8 @@ section h2 {
 .call-to-action {
     /* width: 50%; */
     box-sizing: border-box;
-    height: 100px;
-    width: 900px;
+    height: 10%;
+    width: 80%;
     background-color: #3882f6;
     /* border: 2px solid magenta; */
     border-radius: 10px;
