@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
     display: flex;
     /* padding: 10px 0px; */
-    padding: 10px 15% 20px;
+    padding: 10px 20% 20px;
 
 }
 
@@ -47,7 +47,7 @@ body {
 
 .top-container {
     display: flex;
-    padding: 7% 15% 7% 15%;
+    padding: 7% 20% 7% 20%;
     background-color: #1f2937;
     justify-content: center;
     gap: 10%;
