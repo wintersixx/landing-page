@@ -41,6 +41,9 @@ body {
 }
 
 
+/* MAIN SECTION  */
+
+
 
 .top-container h1 {
     margin: 0;
@@ -107,6 +110,12 @@ body {
     color: #f9faf8;
 }
 
+
+
+/* MID SECTION */
+
+
+
 section h2 {
     text-align: center;
     font-size: 36px;
@@ -120,35 +129,42 @@ section h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* align-content: center; */
     /* color for arrangement context */
     /* background-color: rgba(255, 0, 255, 0.321); */
 }
 
 .img-container {
-    /* display:flex; */
-    /* flex-direction: column; */
     width: 150px;
     margin-right: 40px;
     text-align: center;
     /* color and border for context/arrangement guides */
-    background-color: purple;
-    /* border: 5px solid hidden; */
+    /* background-color: purple; */
 }
 
 .mid-image {
     height: 140px;
     border: 3px solid #3882f6;
     border-radius: 10%;
-    /* margin: 0 auto; */
 }
+
+
+
+/* QUOTE SECTION  */
+
+
 
 .quote-container {
     background-color: #e5e7eb;
-    padding: 0px 20% 0px;
+    padding: 5% 20% 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     /* gap: 10px; */
+}
+
+.quote-container p {
+    margin: 0;
 }
 
 .quote {
@@ -156,20 +172,32 @@ section h2 {
     font-weight: 100;
     font-style: italic;
     text-wrap: wrap;
-    padding: 0 0 0 50px;
+    /* padding: 0 0 0 100px; */
+    /* margin: 0; */
+}
+
+.quote p {
+    padding: 0 18% 0 18%;
 }
 
 .credit {
     font-weight: bold;
-    background-color: magenta;
-    margin-left: auto;
+    margin: 0 0 0 auto;
+    /* color and border for context/arrangement guides */
+    /* background-color: magenta; */
 }
 
+
+/* CALL TO ACTION SECTION  */
+
+
 .offer {
+    /* color and border for context/arrangement guides */
     background-color: #3882f6;
 }
 
 .cta-button-2 {
+    /* color and border for context/arrangement guides */
     background-color: aqua;
 }
 
@@ -177,4 +205,6 @@ section h2 {
     padding: 0px 20% 0px;
     display: flex;
     justify-content: center;
+    /* color and border for context/arrangement guides */
+    background-color: rgb(75, 222, 141);
 }
