@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Roboto;
 }
 
@@ -174,40 +175,46 @@ section h2 {
 
 /* CALL TO ACTION SECTION  */
 
-
-.offer {
-    color: #f9faf8;
-    /* width: 140px; */
-    /* padding: 0 10% 0 10%; */
-    margin: 2% 10% 2% 10%;
-    /* color and border for context/arrangement guides */
-    /* background-color: red; */
+.offer p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
 }
 
-.cta-button-2 {
-    border: 2px solid white;
+.offer h3 {
+    margin: 0;
+    color: #f9faf8;
+}
+
+.button-container button {
+    border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
-    width: 90px;
+    width: 100px;
     background-color: #3882f6;
     color: #f9faf8;
 }
 
 .call-to-action {
-    /* color and border for context/arrangement guides */
-    width: 80%;
+    /* width: 50%; */
+    box-sizing: border-box;
+    height: 100px;
+    width: 900px;
     background-color: #3882f6;
+    /* border: 2px solid magenta; */
     border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-end; */
 }
 
 .cta-container {
     padding: 5% 15% 5% 15%;
     display: flex;
     justify-content: center;
-    /* align-content: flex-end; */
-    /* flex-direction: column; */
-    /* gap: 5%; */
-    /* background-color: aquamarine; */
 
 }
 
