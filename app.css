@@ -119,6 +119,7 @@ section h2 {
     padding: 0px 20% 0px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     /* color for arrangement context */
     /* background-color: rgba(255, 0, 255, 0.321); */
 }
@@ -130,34 +131,38 @@ section h2 {
     margin-right: 40px;
     text-align: center;
     /* color and border for context/arrangement guides */
-    /* background-color: purple; */
+    background-color: purple;
     /* border: 5px solid hidden; */
 }
 
 .mid-image {
     height: 140px;
-    /* width: 100px; */
     border: 3px solid #3882f6;
     border-radius: 10%;
     /* margin: 0 auto; */
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 0px 20% 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 10px; */
 }
 
 .quote {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+    text-wrap: wrap;
+    padding: 0 0 0 50px;
 }
 
 .credit {
+    font-weight: bold;
     background-color: magenta;
-}
-
-.quote-container {
-    background-color: #e5e7eb;
-
-    padding: 0px 20% 0px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
 }
 
 .offer {
